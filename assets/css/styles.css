@@ -12,8 +12,39 @@ body{
     color: #3a3a3a;
 }
 
-h1, h2, h3{
+h1, h2{
     font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
 /* logo, header and navigation*/
 
+#logo{
+    font-size: 180%;
+    float: left;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+
+#menu, #logo{
+    line-height: 75px;
+}
+
+#menu{
+    float: right;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 150%;
+}
+
+#menu li{
+    display: inline;
+    margin-right: 20PX;
+    
+}
+
+#menu a{
+    color: inherit;
+}
