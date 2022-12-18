@@ -20,6 +20,14 @@ h1, h2{
 }
 /* logo, header and navigation*/
 
+#header-background{
+    background: url("../images/pexels-karolina-grabowska-4498606.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 60%;
+    width: 100%;
+    height: 500px;
+}
+
 #logo{
     font-size: 180%;
     float: left;
