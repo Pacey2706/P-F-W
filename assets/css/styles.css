@@ -105,11 +105,15 @@ hr{
 
 .session-info{
     width:25%;
-    padding-left: 20px;
+    height: 100%;
     text-align: center;
+    border: 4px solid #311E10;
+    margin: 10px;
 }
 
 .session-info img{
     width: 100%;
-    height: 20%
+    height: 20%;
+    border-bottom:4px solid #311E10;
+    
 }
