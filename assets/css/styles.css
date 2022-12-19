@@ -19,6 +19,10 @@ h1, h2{
     letter-spacing: 4px;
     color: #311E10;
 }
+
+hr{
+    border: 2px solid #311E10
+}
 /* logo, header and navigation*/
 
 #header-background{
@@ -60,17 +64,19 @@ h1, h2{
 }
 
 #contact{
-    background-color: rgba(18, 116, 117, .4);
+    background-color: #311E10;
+    opacity: 50%;
     padding: 10px;
-    color: #3a3a3a;
-    border: 2px solid #311E10;
-    font-size: 105%;
+    border-radius: 35%;
+}
+#contact, a{
+    color: rgba(49, 30, 16, 1);
 }
 /*hover events*/
 
-#contact a:hover{
-    background-color: rgba(18, 116, 117, 1);
-    background-size: cover;
+#contact:hover{
+    opacity: 100%;
+    color: white;
 }
 
 /* slogan-box */
@@ -91,3 +97,19 @@ h1, h2{
     text-transform: uppercase;
 }
 
+/*club-info section*/
+
+#club-info{
+    height: 600px;
+}
+
+.session-info{
+    width:25%;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.session-info img{
+    width: 100%;
+    height: 20%
+}
