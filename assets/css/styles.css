@@ -12,7 +12,7 @@ body{
     background-color:#F5DFBB;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -142,28 +142,55 @@ hr{
     text-transform: uppercase;
 } */
 
-#what-do-we-offer h1{
+/* session section*/
+
+#sessions{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+}
+
+#sessions h1{
     width: fit-content;
     border-bottom: 3px solid #311E10;
+    font-size: 250%;
+    text-align: center;
+    margin: 0 auto auto;
 }
 
-.sessions{
+#sessions h3{
+font-size: 200%;
+border-bottom: 3px solid #311E10;
+width: 100%;
+text-align: center;
+margin: 0 auto auto;
+}
+
+.session-box{
     width: 100%;
-    height: 200px;
+    height: 33%;
 }
 
-.sessions h2{
-    float: left;
+#session-top{
+    width: 100%;
+    height: 100%;
+    background: url("../images/pexels-andrea-piacquadio-866021.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
 }
 
-.sessions img{
-    width: 300px;
-    height: 300px;
-    display: inline;
-    margin: auto 0 0;
-    
+#session-middle{
+    width: 100%;
+    height: 100%;
+    background: url("../images/pexels-freestocksorg-396133.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0 35%;
 }
 
-.sessions h2, .sessions img{
-    line-height: 75px;
+#session-bottom{
+    width: 100%;
+    height: 100%;
+    background: url("../images/pexels-cottonbro-studio-7675417.jpg") no-repeat;
+    background-size: cover;
+    background-position: 30% 55%;
 }
