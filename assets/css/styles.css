@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+Pro:wght@300;600;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -22,6 +21,12 @@ h1, h2, h3{
 hr{
     border: 2px solid #311E10
 }
+
+a{
+    font-size: 130%;
+    text-decoration: none;
+}
+
 /* logo, header and navigation*/
 
 #header-background{
@@ -62,7 +67,7 @@ hr{
     text-decoration: none;
 }
 
-#contact{
+/* #contact{
     background-color: #311E10;
     opacity: 50%;
     padding: 10px;
@@ -71,12 +76,12 @@ hr{
 #contact, a{
     color: rgba(49, 30, 16, 1);
 }
-/*hover events*/
+
 
 #contact:hover{
     opacity: 100%;
     color: white;
-}
+} */
 
 /* slogan-box */
 
@@ -193,4 +198,28 @@ margin: 0 auto auto;
     background: url("../images/pexels-cottonbro-studio-7675417.jpg") no-repeat;
     background-size: cover;
     background-position: 30% 55%;
+}
+
+#sessions div{
+    display: block;
+}
+
+#sessions a{
+    font-size: 300%;
+    font-weight: 600;
+    position: relative;
+    top: 80%;
+    padding: 40px;
+    margin-bottom: auto;
+    text-transform: uppercase;
+    color: white;
+}
+
+#sessions #session-middle a{
+    color: #311E10;
+}
+/* hover avent */
+#sessions a:hover{
+    font-weight: 900;
+    text-decoration: underline;
 }
