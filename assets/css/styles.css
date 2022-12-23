@@ -67,6 +67,7 @@ a{
     text-decoration: none;
 }
 
+
 /* #contact{
     background-color: #311E10;
     opacity: 50%;
@@ -151,7 +152,7 @@ a{
 
 #sessions{
     width: 100%;
-    height: 900px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -226,10 +227,21 @@ margin: 0 auto auto;
 }
 
 /*footer*/
-
 footer{
-    height: auto;
-    display: inline;
-    flex-direction: column;
+    padding-top: 12%
+}
 
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #311E10;
 }
