@@ -76,33 +76,17 @@ a{
     font-weight: 900;
 }
 
-
-/* #contact{
-    background-color: #311E10;
-    opacity: 50%;
-    padding: 10px;
-    border-radius: 35%;
-}
-#contact, a{
-    color: rgba(49, 30, 16, 1);
-}
-
-
-#contact:hover{
-    opacity: 100%;
-    color: white;
-} */
-
 /* slogan-box */
 
 #slogan-box{
-    width: 30%;
-    height: 85px;
+    width: 300px;
+    height: 150px;
     float: left;
-    margin-top: 25%;
+    margin-top: 20%;
     margin-left: 20px;
+    margin-bottom: 10%;
     position: absolute;
-    background-color: rgba(49, 30, 16, 0.6);   
+    background-color: rgba(49, 30, 16, 0.6);  
 }
 
 #slogan-box > p{
@@ -357,4 +341,14 @@ border-color: #311E10;
 .submit:hover{
     background-color: #fafafa;
     color: #311E10;
+}
+
+/* media queries */
+
+/* for larger-medium screen sizes 1200px and below */
+
+@media screen and (max-width:1200px){
+    .about-box p{
+        font-size: 150%;
+    }
 }
