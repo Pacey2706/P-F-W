@@ -253,17 +253,55 @@ margin: 0 auto auto;
 /*About.html*/
 
 #about-section{
-    height: 1200px;
+    height: 1300px;
     width: 100%;
+    display: inline-block;
+}
+
+#about-section h2{
+    border-bottom: 2px solid #311E10;
+    width: fit-content;
+    margin-left: 10px;
 }
 
 .about-box{
     width: 100%;
     height: 400px;
-    display: inline-block;
 }
 
-.about-box h2{
-    border-bottom: 2px solid #311E10;
-    width: fit-content;
+.about-box p{
+    font-size: 200%;
+    /* font-weight: 600; */
+    opacity: 1;
+    color: white;
+}
+
+.about-box > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+#women{
+    background-image: url('../images/pexels-koolshooters-6246495.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 75%;
+    opacity: 1;
+}
+
+#natal{
+    background-image: url('../images/pexels-pavel-danilyuk-7055684.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 95%;
+    opacity: 1;
+}
+
+#sweat{
+    background-image: url('../images/pexels-photo-9165664.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 75%;
+    opacity: 1;
 }
