@@ -67,8 +67,13 @@ a{
 }
 
 #menu a{
-    color: inherit;
+    color: #311E10;
     text-decoration: none;
+    font-weight: 600;
+}
+
+#menu a:hover{
+    font-weight: 900;
 }
 
 
@@ -228,7 +233,6 @@ margin: 0 auto auto;
 /* hover avent */
 #sessions a:hover{
     font-weight: 900;
-    text-decoration: underline;
 }
 
 /*footer*/
