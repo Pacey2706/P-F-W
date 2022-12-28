@@ -367,13 +367,14 @@ border-color: #311E10;
     }
 
     #sessions h1{
-        float: left;
         font-size: 150%;
         margin-bottom: 20px;
+        display: inline-block;
+        text-align: left;
     }
 
     #sessions{
-        height: 650px;
+        height: 750px;
     }
 
     .session-box{
@@ -383,8 +384,9 @@ border-color: #311E10;
 
     #sessions h3{
         font-size: 100%;
-        display: inline-block;
+        display: block;
         text-align: left;
+        margin-top: 5px;
     }
 
     #sessions a{
@@ -401,8 +403,12 @@ border-color: #311E10;
     }
 
     #logo, #menu{
-        font-size: 100%;
+        font-size: 120%;
         margin: 0;
         position: relative;
+    }
+
+    .about-box p{
+        font-size: 105%;
     }
 }
