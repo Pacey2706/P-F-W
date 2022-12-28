@@ -91,52 +91,6 @@ a{
     text-transform: uppercase;
 }
 
-/*club-info section*/
-
-/* #class-info{
-    height: 600px;
-}
-
-.session-info{
-    width:25%;
-    height: 100%;
-    text-align: center;
-    border: 4px solid #311E10;
-    margin: 10px;
-    background-color: #496f5d;
-}
-
-.session-info img{
-    width: 100%;
-    height: 20%;
-    border-bottom:4px solid #311E10;
-    float: left;
-    
-}
-
-.session-info h3{
-    text-transform: uppercase;
-    font-size: 150%;
-    letter-spacing: 3px;
-    color: #311E10;
-    font-weight: bolder;
-    
-}
-
-.session-info a{
-    
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 200%;
-    border: 4px solid #311E10;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #311E10;
-    font-weight: bolder;
-    color: white;
-    text-transform: uppercase;
-} */
-
 /* session section*/
 
 #sessions{
@@ -231,7 +185,6 @@ margin: 0 auto auto;
     padding: 2% 5%;
     color: #311E10;
 }
-
 
 /*About.html*/
 
