@@ -378,6 +378,7 @@ border-color: #311E10;
 
     .session-box{
         height: 150px;
+        display: inline-block;
     }
 
     #sessions h3{
@@ -390,4 +391,18 @@ border-color: #311E10;
         font-size: 150%;
     }
 
+}
+
+/* for smaller screen sizes 600px wide and below */
+
+@media screen and (max-width:600px){
+    #header-background{
+        height: 200px;
+    }
+
+    #logo, #menu{
+        font-size: 100%;
+        margin: 0;
+        position: relative;
+    }
 }
