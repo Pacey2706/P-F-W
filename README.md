@@ -1,108 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PWD
 
-Welcome Pacey2706,
+PWD is a sign up website for women to join a pilates class, it has some basic information on the classes that are taught and times and locations on where they are held. The website is targeted to women of all ages and aims to show women on when they can attend the classes. PWD also has specilaist classes with an option to sign up for them.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![PWD displayed on different devices][def4]
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## features
 
-## Gitpod Reminders
+* header
+  * The header section houses the logo and picture of a pilates mat indicating to the user what that site is for pilates
+  * On larger veiwports the header holds a informative box that shows the un-abbreviated name (Pilates For Women)
+  * The top navigational links and logo are the same on every page on the website.
+  * This section gives a clear visual for the user that the site is for women.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![header][def5]
 
-`python3 -m http.server`
+* footer
+  * the footer holds links to social media pages with icons to represent each website.
+  * The footer is the same for every page. 
+  * This section allows the user to easily access the social media accounts for the owner of the site.
 
-A blue button should appear to click: _Make Public_,
+![footer](assets/images/Screenshot%202022-12-30%20at%2023.42.57.png)
 
-Another blue button should appear to click: _Open Browser_.
+* What we offer section
+  * the what we offer section holds three different session boxes with Two links.
+  * Each box is titled with a session name.
+  * the first session box is for all women which has a background image of a group of women all sat together.
+  * the second session box is for pre/post natal women it has a background image of pregnant women.
+  * the third session box is for a hot room pilates session it has a background image of a woman sweating.
+  * this section allows the user to see the differnt sessions and have a brief visual of what they consist off.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![what we offer section][def6]
 
-A blue button should appear to click: _Make Public_,
+* About
+  * The about me page holds three session boxes That have a brief summery on each session and why they can be benificial.
+  * The session boxes have times and location of each session for the user.
+  * Each session box has a background image relating to what each session is about.
+  * This page is important for the user to have access to all of the right information.
 
-Another blue button should appear to click: _Open Browser_.
+![about page][def8]
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* join
+  * The join page has a form to allow users to sign up to the coresponding classes fill out the information boxes and send of the information.
+  * The background image is off a woman rolling up a pilates mat.
+  * The sign up for is easy to understand and fill out.
 
-To log into the Heroku toolbelt CLI:
+![signup form][def7]
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* navigation
+  * Shown at the top of the page, the PWD logo is a navigational link to the home page.
+  * The three links stationed to the right hand side of the header all navigate to the corresponding pages (home, about and join)
+  * All navigational link text will show as bold when hovered over.
+  * All session boxes below the header have two navigational links (about and join).
+  * The about navigation links in the session boxes will take the user to the specific session information on the about page.
+  * All navigation is easy to understand gives a very clear information on what each link will do.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
 
-------
+* I tested the pages responsiveness on different screen sizes using the devtools device toolbar.
+* The sign up form only requires all boxes to be completed and the email box requires a email.
+* All navigation moves the user to the intended area or page.
 
-## Release History
+## Validator testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* html
+  * No errors encountered (W3C Validator)
+* css
+  * No errors encountered (Jigsaw Validator)
+* Accessibility 
+  * All colors and fonts are easy to read and understand (Chrome Lighthouse devtools)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![lighthouse test][def9]
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Unfixed bugs
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* No unfixed bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Deployment 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the Settings tab.
+  * Look to the Code and automation section on the left hand side and select pages.
+  * In the build and deployment section change the branch to main.
+  * Once you have pressed save the page link will appear below the Github Pages header.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The live link can be found here -  https://pacey2706.github.io/P-F-W/
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Credits 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Contents 
+* The footer  and sign up form was taken from [Love Running Project][def]
+* Text for the about pages was generated from [Copymatic][def2]
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Media
+* All images are from [Pexels][def3]
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+[def]: https://pacey2706.github.io/love-running/
+[def2]: https://copymatic.ai/app/paragraph-generator/
+[def3]: https://www.pexels.com/
+[def4]: assets/images/Screenshot%202022-12-30%20at%2023.01.18.png
+[def5]: assets/images/Screenshot%202022-12-30%20at%2023.41.39.png
+[def6]: assets/images/Screenshot%202022-12-30%20at%2023.42.26.png
+[def7]: assets/images/Screenshot%202022-12-30%20at%2023.44.13.png
+[def8]: assets/images/Screenshot%202022-12-30%20at%2023.43.35.png
+[def9]: assets/images/Screenshot%202022-12-30%20at%2023.47.01.png
