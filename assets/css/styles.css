@@ -100,7 +100,7 @@ a{
     contain: content;
 }
 
-#sessions h1{
+#sessions h2{
     width: fit-content;
     border-bottom: 3px solid #311E10;
     font-size: 250%;
@@ -144,7 +144,6 @@ margin: 0 auto auto;
     background-size: cover;
     background-position: 30% 55%;
 }
-
 
 #sessions div{
     display: block;
@@ -319,7 +318,7 @@ border-color: #311E10;
         opacity: 0;
     }
 
-    #sessions h1{
+    #sessions h2{
         font-size: 150%;
         margin-bottom: 20px;
         display: inline-block;
