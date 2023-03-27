@@ -4,6 +4,11 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
 
 ![PWD displayed on different devices][def4]
 
+## Design Decisions
+* The site uses a soft neutal colour scheme. This was chosen to entice the target audience to the site. Original colour schemes consited of pinks and baby blues. This was changed to not exclude any women who are not attracted to the traditionally more femanim colours. As the name suggests the site is for ALL women and the colours represent this.
+* The site has a easy to navigate layout that allows the user to use intuitive descion making to guid their way around the pages. This simplicity encourages the audience to explore the page with confidence. 
+* The pictures used are all of women to encourage the user excatly of the sites target audience. Each picture represents either the site or the lessons that are taught.
+
 ## features
 
 * header
