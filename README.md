@@ -47,7 +47,7 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
 * join
   * The join page has a form to allow users to sign up to the coresponding classes fill out the information boxes and send of the information.
   * The background image is off a woman rolling up a pilates mat.
-  * The sign up for is easy to understand and fill out.
+  * The sign up form is easy to understand and fill out.
 
 ![signup form][def7]
 
@@ -71,8 +71,9 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
   * No errors encountered (W3C Validator)
 * css
   * No errors encountered (Jigsaw Validator)
-* Accessibility 
+* LightHouse test 
   * All colors and fonts are easy to read and understand (Chrome Lighthouse devtools)
+  * The performace section comes back withe a low score of 43
 
 ![lighthouse test][def9]
 
