@@ -76,9 +76,9 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
 
 ![lighthouse test][def9]
 
-## Unfixed bugs
+## Bugs
 
-* No unfixed bugs
+* During testing a bug was dicovered. On mobile screen sizes the navigational links located at the top of the page would become unusable. To combat this I used the chrome devtools and used the element selctor tool, moved the sites demsions from the larger to smaller veiw ports. while scanning the site I found that the slogon box would cover the naviagtion selction. Despite visable on larger screens when the viewport was smaller is would become transparent, invisible, change position and cover the buttons. I fixed this bug by changing the demntions of the slogan box to 0 and the font size to 0 on smaller screen sizes.
 
 ## Deployment 
 
