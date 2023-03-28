@@ -106,9 +106,9 @@ The live link can be found here -  https://pacey2706.github.io/P-F-W/
 [def]: https://pacey2706.github.io/love-running/
 [def2]: https://copymatic.ai/app/paragraph-generator/
 [def3]: https://www.pexels.com/
-[def4]: assets/images/Screenshot%202022-12-30%20at%2023.01.18.png
-[def5]: assets/images/Screenshot%202022-12-30%20at%2023.41.39.png
-[def6]: assets/images/Screenshot%202022-12-30%20at%2023.42.26.png
-[def7]: assets/images/Screenshot%202022-12-30%20at%2023.44.13.png
+[def4]: assets/images/resposivenew.png
+[def5]: assets/images/titlepicnew.png
+[def6]: assets/images/whatweoffernew.png
+[def7]: assets/images/signuppagenew.png
 [def8]: assets/images/Screenshot%202022-12-30%20at%2023.43.35.png
 [def9]: assets/images/Screenshot%202022-12-30%20at%2023.47.01.png
