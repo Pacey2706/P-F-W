@@ -60,10 +60,10 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
   * All navigation is easy to understand gives a very clear information on what each link will do.
 
 ## Testing
-
-* I tested the pages responsiveness on different screen sizes using the devtools device toolbar.
-* The sign up form only requires all boxes to be completed and the email box requires a email.
-* All navigation moves the user to the intended area or page.
+* Tested the navigation bar on large and small (320px) screens to make sure the links are visible and work across all devices.
+* Website is responsive, working on devices from small (320px) to large.
+* The sign up form requires all boxes to be completed and the email box requires an email address.
+* The contrast of the text on various backgrounds (images and background colours) is tested across all screen sizes.
 
 ## Validator testing
 
