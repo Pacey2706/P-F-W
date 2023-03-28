@@ -81,13 +81,15 @@ PWD is a sign up website for women to join a pilates class, it has some basic in
 
 * During testing a bug was dicovered. On mobile screen sizes the navigational links located at the top of the page would become unusable. To combat this I used the chrome devtools and used the element selctor tool, moved the sites demsions from the larger to smaller veiw ports. while scanning the site I found that the slogon box would cover the naviagtion selction. Despite visable on larger screens when the viewport was smaller is would become transparent, invisible, change position and cover the buttons. I fixed this bug by changing the demntions of the slogan box to 0 and the font size to 0 on smaller screen sizes.
 
-## Deployment 
-
+## Deployment
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
   * In the GitHub repository, navigate to the Settings tab.
   * Look to the Code and automation section on the left hand side and select pages.
   * In the build and deployment section change the branch to main.
   * Once you have pressed save the page link will appear below the Github Pages header.
+* To fork the repository for further development:
+  * Go to the repository, select code > Local > HTTPS and copy the link to your IDE.
+  * Or, to fork the repository, select the Fork button.
 
 The live link can be found here -  https://pacey2706.github.io/P-F-W/
 
